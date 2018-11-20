@@ -28,3 +28,7 @@ print ( list( x**2 for x in numbers if x==2) , " this is my number 2")
 
 print( list( map ( lambda x: x**2 , [1,2,3,4] )))		# map object
 print( list( n**2 for n in [1,2,3,4] if n==2 ) ) 		# Generator object, list comprehensions
+print( [ n**2 for n in [1,2,3,4] if n==2 ] ) 		# Generator object, list comprehensions
+# Don't need to call list function if its not absolutely necessary.Dont
+
+
