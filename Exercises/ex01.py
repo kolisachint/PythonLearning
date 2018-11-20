@@ -33,6 +33,7 @@ print(list(filter(lambda x: x['name'] == 'java' , dict_a )))
 
 print(list(filter(lambda x: x==10 , map(lambda x: x['points'], dict_a) )))
 #-----list->filter-->function=10---->list_of_points_using_map_and_lambda
+# Print requires explicit typecasting of elements when printing. In code it is not required
 
 
 
