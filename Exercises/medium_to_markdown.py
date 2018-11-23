@@ -13,7 +13,7 @@ if __name__ == "__main__":
     template_mod = copy.deepcopy(template)
 
     # Update the js script with the url
-    template_mod[2] = f'mediumToMarkdown.convertFromUrl("{post_url}")'
+    template_mod[2] = 'mediumToMarkdown.convertFromUrl("%s")'  % post_url 
 
     # Write the new file
     with open('medium-to-markdown_mod.js', 'w') as f:
@@ -21,13 +21,13 @@ if __name__ == "__main__":
 
     # Directory for saving post
     # File is automatically correctly named
-    post_dir = f'{date}-{title}.md'
+    post_dir = '%s-%s.md' % (date,title)
 
     # Run the new script
     r = os.system("nodejs medium-to-markdown_mod.js >> %s" % post_dir)
 
     # If no errors, report save location
     if r == 0:
-        print(f'Post saved as markdown to {post_dir}')
+        print('Post saved as markdown to %s' % post_dir)
     else:
         print('Error somewhere along the way.')
