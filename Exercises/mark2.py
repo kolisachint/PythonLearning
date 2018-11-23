@@ -52,7 +52,6 @@ def main(args=None):
     args = parse_args(args)
     md = args.mdfile.read()
     extensionlist = ['extra', 'smarty']
-    print(inspect.getsource(markdown))
     html = markdown.markdown(md, extensions=extensionlist)
     doc = jinja2.Template(TEMPLATE).render(content=html)
     args.out.write(doc)
