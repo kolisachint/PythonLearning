@@ -18,9 +18,7 @@
 python3 medium_to_markdown.py
 
 # Markdown to html
-python3 markdown_to_html.py 1.txt
-python3 markdown_to_html.py 2018-11-11-how-to-use-your-kindle-more-effective-to-cultivate-a-reading-habit.md >> 2018-11-11-how-to-use-your-kindle-more-effective-to-cultivate-a-reading-habit.html
-
+python3 markdown_to_html.py 1.md >> 1.html
 
 
 
