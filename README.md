@@ -1,6 +1,6 @@
 # Requirement
 
-  Below instruction are for Ubuntu Operating System 
+  Below instructions are for Ubuntu Operating System 
 
     Make sure npm is installed
     Make sure nodejs is installed
