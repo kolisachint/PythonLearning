@@ -1,5 +1,5 @@
 const mediumToMarkdown = require('medium-to-markdown');
  
-mediumToMarkdown.convertFromUrl("https://medium.com/@Alikayaspor/how-to-use-your-kindle-more-effective-to-cultivate-a-reading-habit-a61f0fe45f1d").then(function (markdown) {
+mediumToMarkdown.convertFromUrl("https://medium.com/@kolisachint/test-b6c7c2e59abb").then(function (markdown) {
   console.log(markdown); //=> Markdown content of medium post
 });
