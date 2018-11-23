@@ -10,25 +10,32 @@ TEMPLATE = """<!DOCTYPE html>
 <html>
 <head>
     <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.0/css/bootstrap-combined.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">    
-    <style>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet"><style>
         body {
-            font-family: 'Montserrat', sans-serif;
-            font-size: 38;
-            font-weight: 500;
-            font-size: inherit;
+            font-family:  'Roboto', sans-serif;
+            font-size: 18px;
+            font-weight: 400;
             line-height: 2.2;
         }
-        code, pre {
-            font-family: monospace;
+        h3::first-letter { 
+            font-size: 100%;
         }
-        h1 code,
-        h2 code,
-        h3 code,
-        h4 code,
-        h5 code,
-        h6 code {
-            font-size: inherit;
+        span { 
+            font-size: 300%;
+            font-weight: 600;
+            line-height: 1;
+        }
+        blockquote {
+          background: #f9f9f9;
+          border-left: 10px solid #ccc;
+          margin: 1.5em 10px;
+          padding: 0.5em 10px;
+          quotes: "\201C""\201D""\2018""\2019";
+        }
+        blockquote p {
+          line-height: 2.2;
+          font-size: 18px;
+          font-weight: 400;
         }
     </style>
 </head>
