@@ -24,7 +24,7 @@ if __name__ == "__main__":
     post_dir = f'{date}-{title}.md'
 
     # Run the new script
-    r = os.system("node medium-to-markdown_mod.js >> %s" % post_dir)
+    r = os.system("nodejs medium-to-markdown_mod.js >> %s" % post_dir)
 
     # If no errors, report save location
     if r == 0:
