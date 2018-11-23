@@ -10,13 +10,14 @@ TEMPLATE = """<!DOCTYPE html>
 <html>
 <head>
     <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.0/css/bootstrap-combined.min.css" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i&amp;subset=cyrillic,cyrillic-ext,latin-ext,vietnamese" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">    
     <style>
         body {
-            font-family: 'Lora', serif;
-            font-size: 9;
-            font-weight: 100;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 38;
+            font-weight: 500;
             font-size: inherit;
+            line-height: 2.2;
         }
         code, pre {
             font-family: monospace;
