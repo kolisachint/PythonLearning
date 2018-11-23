@@ -25,9 +25,5 @@ python3 medium_to_markdown.py
 
 
 
-sudo apt-get install python-setuptools
-easy_install --install-dir /home/cabox/workspace/Exercises jinja2
-
-
 
 
