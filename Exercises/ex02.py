@@ -1,7 +1,7 @@
 #!/usr/local/bin/python
 # _*_ coding: utf-8 _*_
 # Concatenating two lists in Python
-# List comprehensions
+# List comprehensions 2
 
 
 # Using + operator
