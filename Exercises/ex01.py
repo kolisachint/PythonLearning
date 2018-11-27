@@ -8,14 +8,14 @@ def add(x,y):				# Defining function
 print(add(3,2))
 
 addl = lambda x,y: x+y 		# Defining lambda function
-print(addl(5,7))
+print(addlmbd(5,7))
 
 
 def minus(x,y):				# Defining function
 	return x-y
 print(minus(8,5))
 print(list(map(minus, [4,3,4,9,9,9,9,9,9],[9,1,3,3,3] )) )  
-# Using map function Takes inputs and iteratively until input is exausted
+# Using map function Takes inputs and iteratively until input is exhausted
 
 # Iterating over a dictionary using map and lambda
 dict_a = [{'name': 'python', 'points': 10}, {'name': 'java', 'points': 8}]
