@@ -1,0 +1,30 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "name": "PySpark",
+            "type": "python",
+            "request": "launch",
+            "osx": {
+                "pythonPath": "${env:SPARK_HOME}/bin/spark-submit"
+            },
+            "windows": {
+                "pythonPath": "${env:SPARK_HOME}/bin/spark-submit.cmd"
+            },
+            "linux": {
+                "pythonPath": "${env:SPARK_HOME}/bin/spark-submit"
+            },
+            "program": "${file}"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "program": "${file}"
+        }
+    ]
+}
