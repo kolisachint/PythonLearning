@@ -11,7 +11,7 @@ addl = lambda x,y: x+y 		# Defining lambda function
 print(addl(5,7))
 
 
-def minus(x,y):					# Defining function
+def minus(x,y):				# Defining function
 	return x-y
 print(minus(8,5))
 print(list(map(minus, [4,3,4,9,9,9,9,9,9],[9,1,3,3,3] )) )  
